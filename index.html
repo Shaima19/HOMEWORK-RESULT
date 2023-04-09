@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Result</title>
+</head>
+<body>
+    <script>
+        function countResult(mathMark,engMark,banglaMark,ictMark,userName = `Unknown user`) {
+          let math = mathMark  
+          let eng = engMark
+          let bangla = banglaMark
+          let ict = ictMark
+          let user = userName
+
+          let result = math + eng + bangla + ict
+          console.log(`${user} your result is ${result}`)
+        }
+        countResult(80,75,60,85,)
+        countResult(70,75,65,85,`sammy`)
+        countResult(60,75,60,70,`Alina`)
+        countResult(65,55,60,75,`alex`)
+    </script>
+</body>
+</html>
